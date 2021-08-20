@@ -1,0 +1,180 @@
+main {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.about {
+    margin: 10px;
+    width: 300px;
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+}
+header img{
+    height: fit-content;
+   
+}
+header h4{
+    margin-right: 20px;
+    text-align: left;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white ;
+    box-shadow: 0px 0px 10px #888888 ;
+    background-color: #ebebeb;
+}
+aside {
+   padding: 10px; 
+}
+aside p{
+    text-align: left;
+   
+}
+section img{
+        margin: 5px;
+}
+aside button{
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 270px;
+    width: 100px;
+    height: 30px;
+}
+aside a{
+    color:white;
+}
+.safe {
+    display: flex;
+    
+}
+.safe img{
+    width: 50px;
+    height: 50px;
+}
+.info {
+width: 230px;
+border-right: 1px solid grey;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 200px;
+    
+}
+.recycle {
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.recycle img{
+    width: 150px;
+    height: 200px;
+}
+.it {
+    width: 660px;
+    height: 200px;
+}
+.collect {
+    width: 250px;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    }
+    .list {
+        
+    }
+
+.list ul{
+    color:#898989;
+    list-style: none;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+
+}
+.list li{
+    padding: 10px;
+    text-align: left;
+}
+
+ h5{
+    color:#898989;
+    font-size: 20px;
+    text-align: left;
+}
+.help{
+    width: 300px;
+
+}
+
+.help li{
+    border-bottom: 1px solid #898989;
+    padding: 5px 0px 5px;
+}
+.help ul{
+color:#898989;
+list-style: none;
+
+}
+.form p{
+    color: #898989;
+}
+
+.form button{
+    background-color:#1b1b1b;
+    color:white;
+    border:black;
+}
+.form {
+    width: 300px;
+    
+
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+.fill{
+    display: flex;
+    
+}
+.fill input{
+    width: 100px;
+    height: 30px;
+    background-color:#262625; 
+    border-radius: 5px;
+    margin:10px;
+    border: black;
+}
+
+.f2 input{
+    width: 220px;
+    height: 30px;
+    background-color: #262625; 
+    border-radius: 5px;
+    margin-left: 10px;
+    border: black;
+}
